@@ -8,7 +8,7 @@ FROM mazzolino/armhf-debian:wheezy
 #ENV NGINX_VERSION 1.7.9-1~wheezy
 
 #RUN apt-get update && apt-get install -y nginx=${NGINX_VERSION} && rm -rf /var/lib/apt/lists/*
-RUN apt-get update && apt-get install -y nginx
+RUN apt-get update && apt-get install -y nginx-extras
 
 # patch the Debian version of NGINX
 RUN rm /etc/nginx/sites-enabled/default
