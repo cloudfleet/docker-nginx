@@ -1,9 +1,5 @@
-# About this Repo
+# docker-nginx
 
-This is the Git repo of the official Docker image for [nginx](https://registry.hub.docker.com/_/nginx/). See the
-Hub page for the full readme on how to use the Docker image and for information
-regarding contributing and issues.
-
-The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
-specificially in [docker-library/docs/nginx](https://github.com/docker-library/docs/tree/master/nginx).
-
+This is the Git repo of the Docker image for nginx built from the Debian nginx
+package and not the custom nginx apt repository that
+the [default nginx Docker image](https://registry.hub.docker.com/_/nginx/) uses.
